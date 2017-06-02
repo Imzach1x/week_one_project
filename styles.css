@@ -1,0 +1,142 @@
+/*
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343
+
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+*/
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  background: transparent;
+  box-sizing: content-box;
+}
+body{
+  background-color: #F2F1E8;
+  color: #131511;
+}
+
+.site-header{
+  width: 100%;
+}
+
+.nav-bar{
+  height: 75px;
+  background-color: #FFF;
+  z-index: 9001;
+  text-align: center;
+  box-shadow: 0 2px 10px;
+}
+
+.nav-ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#bentlogo{
+  width: 3.5%;
+  position: absolute;
+  padding: 1%;
+}
+
+#birdhouse{
+  width: 125px;
+  margin-right: 25px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.about_main{
+  margin-right: 125px;
+  width: 70%;
+  line-height: 2;
+}
+
+.about_intro{
+  position: relative;
+  left: 175px;
+}
+
+li{
+  list-style: none;
+  padding:30px;
+}
+
+li a:hover{
+  color: #CD5D67;
+}
+
+.active_page{
+  color: #968772;
+}
+
+li a{
+  color: #2B2F26;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  text-transform: capitalize;
+}
+
+p{
+  font-family: 'Merriweather', serif;
+}
+
+blockquote{
+  text-align: center;
+  margin: 40px;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  line-height: 2;
+}
+
+.home_title{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 3em;
+  text-align: center;
+}
+
+.sub_title{
+
+}
+
+.about_title{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 3em;
+  text-align: center;
+}
+
+.history{
+  font-size: 1.8em;
+  margin: 20px 0 10px 175px;
+}
+
+.history_main{
+  margin-left: 175px;
+  width: 70%;
+  line-height: 2;
+}
+
+.room{
+  background-image: url("background-3.jpg");
+  position: absolute;
+  width: 100%;
+  clip: rect(0px 5px 0px 5px);
+}
